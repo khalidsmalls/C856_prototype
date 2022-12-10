@@ -1,0 +1,314 @@
+:root {
+	--primary: #1976D2;
+	--secondary: #424242;
+	--accent: #82B1FF;
+	--error: #FF5252;
+	--info: #2196F3;
+	--success: #4CAF50;
+	--warning: #FFC107;
+	--hero-orange: #FF8C1A;
+	--hero-outline: #342009;
+	--light: #f8f9fa;
+}
+
+body, html {
+	height: 100%;
+}
+
+.text-shadow {
+	text-shadow: 3px 2px 5px #424242bb;
+}
+
+.parallax {
+	height:100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.active {
+	color: #f8f9fa!important;
+	padding: 6px;
+}
+
+.hero-img {
+	position: relative;
+}
+
+.homepage-headline {
+	position: absolute;
+	left: 17%;
+	top: 2%;
+}
+
+.attractions-headline {
+	position: absolute;
+	left: 17%;
+	top: 2%;
+}
+
+.container-fluid {
+	max-width: 1750px;
+}
+
+.bg-translucent {
+	background-color: #f8f9fabb;
+}
+
+#about-taniti {
+	position: absolute;
+	top: 2%;
+	left: 14%;
+}
+
+.cta-btn {
+	background-color: var(--hero-orange);
+	color:  var(--hero-outline);
+	border: 1px solid var(--hero-outline);
+}
+
+.call-to-action {
+	background-color: #aaaaaa;
+}
+
+.hero-text {
+	color: #ffffff;
+}
+
+#cta-home {
+	margin: 0 auto;
+	text-align: center;
+}
+
+@media screen and (min-width: 370px) {
+	.attractions-headline {
+		left: 19%;
+	}
+}
+
+@media screen and (min-width: 450px) {
+	.homepage-headline {
+		left: 22%;
+	}
+
+	.attractions-headline {
+		left: 24%;
+	}
+
+	#about-taniti {
+		left: 21%;
+	}
+}
+
+@media screen and (min-width: 576px) {
+
+	.call-to-action {
+		position: absolute;
+		top: 45%;
+		left: 5%;
+		background-color: #424242aa;
+		border-radius: 5%;
+	}
+
+	.cta-btn-div {
+		text-align: right;
+	}
+
+	.cta-btn {
+/*		font-size: 0.9em;*/
+	}
+
+	.hero-text {
+		font-size: 1.3em;
+		color: #ffffff;
+	}
+
+	#cta-home {
+		text-align: left;
+	}
+
+	.homepage-headline {
+		left: 24%;
+	}
+
+	.attractions-headline {
+		left: 27%;
+	}
+
+	#about-taniti {
+		left: 26%;
+	}
+
+}
+
+@media only screen and (max-device-width: 576px) {
+	.parallax {
+		background-attachment: scroll;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+	.cta-btn-div {
+		display: flex;
+		align-items: center;
+	}
+
+	.cta-btn {
+	}
+
+	.pos-relative {
+		position: relative;
+	}
+
+	.btn-absolute {
+		position: absolute;
+		bottom: 2%;
+		right: 2%;
+	}
+
+	.homepage-headline {
+		left: 29%;
+	}
+
+	.attractions-headline {
+		left: 30%;
+	}
+
+	#about-taniti {
+		left: 28%;
+	}
+}
+
+@media screen and (min-width: 860px) {
+	.homepage-headline {
+		left: 30%;
+	}
+
+	.attractions-headline {
+	
+	}
+
+	#about-taniti {
+		left: 29%;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	p {
+		font-size: 1.1em;
+	}
+
+	.call-to-action {
+		top: 55%;
+	}
+
+	.cta-btn {
+		font-size: 1.35em;
+	}
+
+	#discover-taniti {
+		font-size: 1.2em;
+	}
+
+	.homepage-headline {
+		left: 32%;
+	}
+
+	.attractions-headline {
+	
+	}
+
+	#about-taniti {
+		left: 30%;
+	}
+
+	#branding {
+		font-size: 1.7em;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	p {
+		font-size: 1.25em;
+	}
+
+	.hero-text {
+		font-size: 2em;
+	}
+
+	.cta-btn {
+		font-size: 1.5em;
+	}
+
+	.homepage-headline {
+		left: 36%;
+	}
+
+	.attractions-headline {
+		left: 33%;
+	}
+
+	#about-taniti {
+		left: 32%;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	h4 {
+		font-size: ;
+	}
+
+	p {
+		font-size: 1.35em;
+	}
+
+	.cta-btn {
+		font-size: 1.55em;
+	}
+
+	#discover-taniti {
+		font-size: 1.3em;
+	}
+
+	.homepage-headline {
+		left: 37%;
+	}
+
+	.attractions-headline {
+		left: 35%;
+	}
+
+	#about-taniti {
+		left: 36%;
+	}
+
+	#branding {
+		font-size: 2em;
+	}
+}
+
+@media screen and (min-width: 1480px) {
+	#discover-taniti {
+		font-size: 1.55em;
+	}
+}
+
+@media screen and (min-width: 1700px) {
+	#about-taniti {
+		left: 37%;
+	}
+
+	.attractions-headline {
+		left: 39%;
+	}
+}
+
