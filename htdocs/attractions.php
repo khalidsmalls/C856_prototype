@@ -62,7 +62,7 @@
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<div class="d-flex justify-content-center justify-content-sm-end">
 			<button class="btn cta-btn me-3" onclick="">
-				Explore Taniti City Attractions
+				Book a Tour Now
 			</button>
 		</div>
 	</section>
@@ -116,7 +116,7 @@
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<div class="d-flex justify-content-center justify-content-sm-end">
 			<button class="btn cta-btn me-3" onclick="">
-				Learn More
+				Book a Tour Now
 			</button>
 		</div>
 	</section>
