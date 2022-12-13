@@ -15,8 +15,8 @@ body, html {
 	height: 100%;
 }
 
-section {
-	row-gap: 5px;
+img {
+	object-fit: cover;
 }
 
 .text-shadow {
@@ -160,6 +160,14 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
+
+	div section {
+		max-width: 49.5%!important;
+	}
+
+	.justify-row-md {
+		justify-content: space-between;
+	}
 
 	.cta-btn-div {
 		display: flex;

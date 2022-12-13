@@ -35,7 +35,7 @@
 	</div>
 </div>
 
-<div class="row mt-2 mx-1">
+<div class="row mt-2 mx-1 justify-row-md">
 	<section class="col-xs-12 col-md-6 p-2 bg-translucent" id="yellow-leaf-bay">
 		<div class="d-flex justify-content-center justify-content-md-start">
 			<h2>Hotels near Yellow Leaf Bay</h2>

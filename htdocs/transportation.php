@@ -34,7 +34,7 @@
 	</div>
 </div>
 
-<div class="row mt-2 mx-1">
+<div class="row mt-2 mx-1 justify-row-md">
 	<section class="col-xs-12 col-md-6 p-2 bg-translucent pos-relative" id="taxi">
 		<div class="d-flex justify-content-center justify-content-md-start">
 			<h2>Taxi Services</h2>
@@ -97,7 +97,7 @@
 	<h1 class="display-1">Transportation to Taniti</h1>
 </div>
 
-<div class="row mt-2 mx-1">
+<div class="row mt-2 mx-1 justify-row-md">
 	<section class="col-xs-12 col-md-6 p-2 bg-translucent pos-relative" id="cruise">
 		<div class="d-flex justify-content-center justify-content-md-start">
 			<h2>Cruiseline</h2>

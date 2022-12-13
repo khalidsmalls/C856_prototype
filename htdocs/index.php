@@ -36,7 +36,7 @@
 				</button>
 			</div>
 		</section>
-		<div class="col-xs-12 col-md-6 mt-2 mt-sm-0">
+		<div class="col-xs-12 col-md-6 mt-2 mt-sm-0 justify-content-center align-items-center">
 			<picture>
 				<source media="(min-width: 1200px)" srcset="../assets/images/volcano2-lg.jpg">
 				<source media="(min-width: 422px)" srcset="../assets/images/volcano2-md.jpg">
@@ -45,7 +45,7 @@
 		</div>
 	</div>
 
-	<div class="row mt-2 mx-1">
+	<div class="row mt-2 mx-1 justify-content-between justify-row-md">
 		<section class="col-xs-12 col-md-6 p-2 bg-translucent">
 			<div class="d-flex justify-content-center justify-content-md-start">
 				<h2>Accomodations</h2>
