@@ -1,3 +1,5 @@
 # Visit Taniti
 
-a tourism website frontend prototype
+a tourism website demo
+www.visittaniti.space
+
