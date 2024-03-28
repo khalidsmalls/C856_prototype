@@ -1,4 +1,4 @@
-# Visit Taniti
+# Taniti Travel Site
 
 a tourism website demo
 
