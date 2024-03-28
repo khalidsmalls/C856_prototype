@@ -1,3 +1,3 @@
-# C856_prototype
+# Visit Taniti
 
-A prototype tourism website for a fictitious Pacific Island
+a tourism website frontend prototype
