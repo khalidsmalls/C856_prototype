@@ -29,7 +29,7 @@ window.onload = () => {
 		}
 	}
 
-	console.log("yo mamma");
+	
 }  //);
 
 //appends the fragment identifier to the breadcrumb list
